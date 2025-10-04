@@ -78,17 +78,22 @@ body{
 a {
     text-decoration: none;
 }
+#btnContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+    margin-top: 160px;
+}
 .Btn {
     display: inline-block;
     background-color: #122439;
     border: solid 2px #122439;
     border-radius: 15px;
-    width: 150px;
+    width: 100%;
     color: #ffffff;
     text-align: center;
     font-size: 0.8rem;
     padding: 12px;
-    margin: 160px 4px 0 4px;
 }
 .Btn:hover {
     background-color: #ffffff;
@@ -182,3 +187,4 @@ a {
     font-size: 5rem;
     margin-top: -300px;
 }
+
